@@ -10,6 +10,10 @@ run-servers:
 	@echo "--> Starting servers"
 	@docker-compose up
 
+down-severs:
+	@echo "--> Stop servers"
+	@docker-compose down	
+
 run-frontend:
 	@echo "--> Starting frontend"
 	cd ./frontend
